@@ -4,7 +4,7 @@ import AdminLayout from "../common/AdminLayout";
 import DataTable from "../common/DataTable";
 import { getAdminCategories, addCategory, updateCategory, deleteCategory } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 const emptyForm = { name: "", description: "", status: "Active" };
 
 export default function ManageCategories({ setIsAuthenticated, adminName }) {

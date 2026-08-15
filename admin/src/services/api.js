@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const BASE = "http://localhost:8000";
+const BASE = "https://on-demand-service-booking-scheduling.onrender.com";
 
 // Attach JWT token from cookie to every request automatically
 // NOTE: Do NOT set Content-Type here — axios must auto-set it for FormData

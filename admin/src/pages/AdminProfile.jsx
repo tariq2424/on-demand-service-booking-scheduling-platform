@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import AdminLayout from "../common/AdminLayout";
 import { getProfile, updateProfile, changePassword } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
 export default function AdminProfile({ setIsAuthenticated, adminName }) {
   const [profile, setProfile] = useState(null);

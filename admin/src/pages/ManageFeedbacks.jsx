@@ -4,7 +4,7 @@ import AdminLayout from "../common/AdminLayout";
 import DataTable from "../common/DataTable";
 import { getFeedbacks } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
 export default function ManageFeedbacks({ setIsAuthenticated, adminName }) {
   const [feedbacks, setFeedbacks] = useState([]);
