@@ -60,7 +60,7 @@ app.use(cors({
     "http://localhost:3001",
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://on-demand-service-booking-scheduling-9fa1.onrender.com"
+    "https://on-demand-service-booking-scheduling-9ta1.onrender.com"
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
