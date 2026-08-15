@@ -56,7 +56,7 @@ export default function Home({ isAuthenticated, setIsAuthenticated }) {
     return () => clearInterval(timer);
   }, []);
 
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
   return (
     <>

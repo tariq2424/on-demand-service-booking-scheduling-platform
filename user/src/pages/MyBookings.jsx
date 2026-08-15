@@ -21,7 +21,7 @@ export default function MyBookings({ isAuthenticated, setIsAuthenticated }) {
   const [feedbackModal, setFeedbackModal] = useState(null); // {booking_id, service_id}
   const [feedbackData, setFeedbackData] = useState({ rating: 5, feedback: "" });
   const [submittingFeedback, setSubmittingFeedback] = useState(false);
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
   const fetchBookings = async () => {
     try {

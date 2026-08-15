@@ -13,7 +13,7 @@ export default function ServiceDetail({ isAuthenticated, setIsAuthenticated }) {
   const [loading, setLoading] = useState(true);
   const [bookingDatetime, setBookingDatetime] = useState("");
   const [booking, setBooking] = useState(false);
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
   useEffect(() => {
     const fetchAll = async () => {

@@ -13,7 +13,7 @@ export default function Services({ isAuthenticated, setIsAuthenticated }) {
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
   const [searchParams] = useSearchParams();
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://on-demand-service-booking-scheduling.onrender.com";
 
   useEffect(() => {
     const catId = searchParams.get("category_id") || "";
